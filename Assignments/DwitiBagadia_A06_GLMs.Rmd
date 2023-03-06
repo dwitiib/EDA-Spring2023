@@ -2,9 +2,11 @@
 title: "Assignment 6: GLMs (Linear Regressios, ANOVA, & t-tests)"
 author: "Dwiti Bagadia"
 date: "Spring 2023"
-output: pdf_document
+output:
+  pdf_document: default
+  word_document: default
 geometry: margin=2.54cm
-editor_options: 
+editor_options:
   chunk_output_type: console
 ---
 
@@ -24,6 +26,10 @@ This exercise accompanies  the lessons in Environmental Data Analytics on genera
 1. Set up your session. Check your working directory. Load the tidyverse, agricolae and other needed packages. Import the *raw* NTL-LTER raw data file for chemistry/physics (`NTL-LTER_Lake_ChemistryPhysics_Raw.csv`). Set date columns to date objects.
 
 2. Build a ggplot theme and set it as your default theme.
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+
+```
 
 ```{r setup2}
 #1 
