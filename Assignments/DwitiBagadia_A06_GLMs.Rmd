@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 ---
 title: "Assignment 6: GLMs (Linear Regressios, ANOVA, & t-tests)"
-author: "Dwiti Bagadia"
+author: "Dwiti Bagadia "
 date: "Spring 2023"
 output:
   pdf_document: default
